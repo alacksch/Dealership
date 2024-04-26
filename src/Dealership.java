@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Dealership {
     public static void main(String[] args) {
-        Car testCar = search(7);
+        Car testCar = search(20);
         System.out.println(testCar.getName());
     }
     public static ArrayList<Car> getCars() {
