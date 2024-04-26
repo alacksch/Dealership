@@ -5,6 +5,7 @@ public class Dealership {
     public static void main(String[] args) {
         Car testCar = search(21);
         System.out.println(testCar.getName());
+        System.out.println(testCar.getPrice());
     }
     public static ArrayList<Car> getCars() {
         ArrayList<Car> arrayList = new ArrayList<Car>();
