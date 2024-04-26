@@ -17,7 +17,7 @@ public class Dealership {
                 arrayList.add(car);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            System.err.println(e);
         }
         return arrayList;
     }
